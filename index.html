@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPH Project</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">RPH <span>Group Project</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active-filter">Home</a></li>
+                    <li><a href="#post-filter-container" class=" active-filter">All</a></li>
+                    <li><a href="#" class="active-filter">About</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">Rizal's Legacy Shaping Stories</h2>
+            <span class="home-subtitle">Rizal's Legacy Shapes Lives, Inspires Futures</span>
+        </div>
+    </section>
+
+    <section class="about container" id="about">
+        <div class="contentBx">
+            <h2 class="titleText">Who Was José Rizal?</h2>
+            <p class="title-text truncated">
+                While living in Europe, José Rizal wrote about the discrimination that accompanied Spain's colonial rule of his country. He returned to the Philippines in 1892 but was exiled due to his desire for reform. Although he supported peaceful change, Rizal was convicted of sedition and executed on December 30, 1896, at age 35.
+                Early Life
+                On June 19, 1861, José Protasio Rizal Mercado y Alonso Realonda was born in Calamba in the Philippines' Laguna Province. A brilliant student who became proficient in multiple languages, José Rizal studied medicine in Manila. In 1882, he traveled to Spain to complete his medical degree.
+                Writing and Reform:
+                While in Europe, José Rizal became part of the Propaganda Movement, connecting with other Filipinos who wanted reform. He also wrote his first novel, Noli Me Tangere (Touch Me Not/The Social Cancer), a work that detailed the dark aspects of Spain's colonial rule in the Philippines, with particular focus on the role of Catholic friars. The book was banned in the Philippines, though copies were smuggled in. Because of this novel, Rizal's return to the Philippines in 1887 was cut short when he was targeted by police.
+                Rizal returned to Europe and continued to write, releasing his follow-up novel, El Filibusterismo (The Reign of Greed) in 1891. He also published articles in La Solidaridad, a paper aligned with the Propaganda Movement. The reforms Rizal advocated for did not include independence—he called for equal treatment of Filipinos, limiting the power of Spanish friars and representation for the Philippines in the Spanish Cortes (Spain's parliament).
+                Exile in the Philippines:
+                Rizal returned to the Philippines in 1892, feeling he needed to be in the country to effect change. Although the reform society he founded, the Liga Filipino (Philippine League), supported non-violent action, Rizal was still exiled to Dapitan, on the island of Mindanao. During the four years Rizal was in exile, he practiced medicine and took on students.
+                Execution and Legacy:
+                In 1895, Rizal asked for permission to travel to Cuba as an army doctor. His request was approved, but in August 1896, Katipunan, a nationalist Filipino society founded by Andres Bonifacio, revolted. Though he had no ties to the group and disapproved of its violent methods, Rizal was arrested shortly thereafter.
+                After a show trial, Rizal was convicted of sedition and sentenced to death by firing squad. Rizal's public execution was carried out in Manila on December 30, 1896, when he was 35 years old. His execution created more opposition to Spanish rule.
+                Spain's control of the Philippines ended in 1898, though the country did not gain lasting independence until after World War II. Rizal remains a nationalist icon in the Philippines for helping the country take its first steps toward independence.
+                <!-- <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed blanditiis libero pariatur ipsum suscipit voluptates aut, repellendus quos dolor autem, natus laboriosam consectetur maxime cumque, sunt magni optio? Veritatis, ea? -->
+            </p>
+
+
+            <a href="#" class="btn2">Read more</a>
+        </div>
+        <div class="imgBx" style="padding: 100px;">
+            <img id="joseImg" src="images/jose.jpg" alt="" class="fitBg" style="border-radius: 10px; width: 500px; height: 300px;">
+        </div>
+    </section>
+<!-- The Modal for btn2 -->
+<div id="btn2Modal" class="modal2">
+    <div class="modal-content2">
+        <div id= "modaljose">
+            <img id="josePic" src="" alt="">
+        </div>
+        <span class="close">&times;</span>
+        <div id="btn2Description" class="modal-description2">
+            <!-- Content will be dynamically populated here -->
+        </div>
+    </div>
+</div>
+
+
+
+
+    <div id="post-filter-container" class="post-filter container">
+        <span class="filter-item active-filter" data-filter="all">All</span>
+        <span class="filter-item" data-filter="lovelife">Love Life</span>
+        <span class="filter-item" data-filter="travel">Travel</span>
+        <span class="filter-item" data-filter="news">Literary Works</span>
+    </div>
+
+    <div class="post container ">
+        <!-- Post 1 -->
+        <div class="post-box lovelife">
+            <img src="images/segunda.jpg" alt="" class="post-img">
+            <h2 class="category"></h2>
+            <a href="#" class="post-title">Segunda Katigbak</a>
+            <span class="post-date">27 Apr 2024</span>
+            <p class="post-description truncated">In the tapestry of Jose Rizal's life, Segunda Katigbak holds a
+                delicate thread, often overlooked but significant nonetheless. At the tender age of 16, Rizal found
+                himself ensnared by the charm of Segunda, whom he affectionately referred to as his "puppy love." Their
+                connection was woven through the shared bond of friendship; Segunda was the sister of Rizal's classmate,
+                Mariano Katigbak. Despite her engagement to Manuel Luz, Rizal couldn't help but be captivated by her
+                beauty, describing her with poetic admiration. Segunda's presence in Rizal's early life adds a nuanced
+                layer to his journey, reflecting the complexities of youthful infatuation and the intertwining paths of
+                destiny.</p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Paul Llamas</span>
+            </div>
+        </div>
+        <!-- para alam ko saaan mag aadd  -->
+        <div class="post-box lovelife">
+            <img src="images/leanor.jpg" alt="" class="post-img  post-trigger">
+            <h2 class="category"></h2>
+            <a href="#" class="post-title post-trigger">Leonor Valenzuela </a>
+            <span class="post-date">13 Apr 2024</span>
+            <p class="post-description truncated">
+                In the vibrant streets of Intramuros, Manila, a lesser-known figure in the life of the great Filipino
+                nationalist Jose Rizal emerges - Leonor Valenzuela. As Rizal's neighbor during his formative years at
+                the University of Santo Tomas, Valenzuela found herself entwined in a tale of secret affections and
+                unspoken desires. Rizal's clandestine love letters, penned with invisible ink, bore testament to his
+                fascination with her, even as he courted his beloved Leonor Rivera. Valenzuela's resilience shines
+                through history as she gracefully continued her life, unmoved by Rizal's departure from the Philippines,
+                her stoic demeanor leaving an enigmatic mark on the annals of Filipino history.</p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Hendrick Castro</span>
+            </div>
+        </div>
+        <!-- Post 2 -->
+        <div class="post-box lovelife">
+            <img src="images/rivera.jpg" alt="" class="post-img">
+            <h2 class="category"></h2>
+            <a href="#" class="post-title">Leonor Rivera</a>
+            <span class="post-date">16 Apr 2024</span>
+            <p class="post-description truncated">
+                Discover the poignant tale of Leonor Rivera, the enduring sweetheart of Philippine national hero, Jose
+                Rizal, for 11 heartfelt years. Despite their deep bond, Leonor's mother intervened, concealing Rizal's
+                letters and leading Leonor to believe he had forsaken her. Eventually, Leonor found solace in marriage
+                to Englishman Henry Kipping, marking the end of a chapter in one of history's most captivating romances.
+            </p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Osamah</span>
+            </div>
+        </div>
+        <!-- Post 3 -->
+        <div class="post-box lovelife">
+            <img src="images/consuelo.jpg" alt="" class="post-img">
+            <h2 class="category"></h2>
+            <a href="#" class="post-title">Consuelo Ortiga y Rey</a>
+            <span class="post-date">16 Apr 2024</span>
+            <p class="post-description truncated">In the rich tapestry of Jose Rizal's life, Consuelo Ortiga y Rey
+                stands as a captivating figure. The daughter of a Spanish official in Madrid, she captured Rizal's heart
+                during his time in Spain. Rizal's poetic fervor found expression in "A La Senorita C.O.y.D," a tribute
+                to her beauty and charm. However, their love story faced obstacles; Rizal's prior engagement to Leonor
+                Rivera and his friend Eduardo de Lete's affection for Consuelo prompted him to step back, revealing the
+                complexities of love and loyalty in his life.</p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Talha Ahmed</span>
+            </div>
+        </div>
+        <!-- Post 4 -->
+        <div class="post-box lovelife">
+            <img src="images/josephine.jpg" alt="" class="post-img">
+            <h2 class="category"></h2>
+            <a href="#" class="post-title"> Josephine Bracken</a>
+            <span class="post-date">10 Apr 2024</span>
+            <p class="post-description truncated">Discover the intriguing tale of Josephine Bracken, an 18-year-old
+                Irish woman who crossed paths with Jose Rizal during his exile in Dapitan. Despite societal norms, she
+                became Rizal's wife, their union lacking the church's blessing. Tragedy struck as Josephine experienced
+                a miscarriage, losing their child. Following Rizal's demise, she journeyed to Hong Kong, eventually
+                marrying Vicente Abad and starting a family of her own, adding another layer to the enigmatic legacy of
+                Jose Rizal.</p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Russel Gandawali</span>
+            </div>
+        </div>
+        <!-- Post 5 -->
+        <div class="post-box lovelife">
+            <img src="images/usui.jpg" alt="" class="post-img">
+            <h2 class="category"></h2>
+            <a href="#" class="post-title">Seiko Usui</a>
+            <span class="post-date">17 Feb 2024</span>
+            <p class="post-description truncated">a Japanese cultural mentor, played a pivotal role in Jose Rizal's
+                artistic and linguistic pursuits. She shared her expertise in sumi-e painting and the Japanese language
+                with Rizal, enriching his understanding of Japanese culture. Through her guidance, Rizal expanded his
+                artistic repertoire and linguistic skills, fostering a deeper appreciation for Japanese traditions in
+                his work.</p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Lessur </span>
+            </div>
+        </div>
+        <!-- Post 6 -->
+        <div class="post-box lovelife">
+            <img src="images/gertrude.jpg" alt="" class="post-img">
+            <h2 class="category"></h2>
+            <a href="#" class="post-title">Gertrude Beckett</a>
+            <span class="post-date">16 Feb 2024</span>
+            <p class="post-description truncated">In the fascinating narrative of Jose Rizal's life, Gertrude Beckett
+                emerges as a captivating figure. Rizal's time in London, where he resided with Beckett, took an
+                unexpected turn when she developed feelings for him. This unexpected romantic entanglement prompted
+                Rizal to make a hasty departure for Paris, adding another intriguing chapter to the story of the
+                Philippine national hero's adventures abroad.</p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Paul George</span>
+            </div>
+        </div>
+        <!-- Post 7 -->
+        <div class="post-box lovelife">
+            <img src="images/jacoby.jpg" alt="" class="post-img">
+            <h2 class="category"></h2>
+            <a href="#" class="post-title">Suzanne Jacoby</a>
+            <span class="post-date">16 Mar 2024</span>
+            <p class="post-description truncated">
+                In the tapestry of Jose Rizal's life, one intriguing thread is his relationship with Nellie Boustead.
+                Their love story blossomed in Europe, where Rizal found himself entangled in the throes of passion and
+                commitment. Despite their intentions to marry, the disapproval of Nellie's mother cast a shadow over
+                their plans, leaving behind a poignant chapter in Rizal's tumultuous romantic journey.</p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Gordon Ramsay</span>
+            </div>
+        </div>
+        <div class="post-box lovelife">
+            <img src="images/nellie.jpg" alt="" class="post-img">
+            <h2 class="category"></h2>
+            <a href="#" class="post-title">Nellie Boustead</a>
+            <span class="post-date">20 Mar 2024</span>
+            <p class="post-description truncated">
+                In the vibrant city of Brussels, amidst the tumultuous times of Jose Rizal, one woman captured his heart
+                unlike any other – Suzanne Jacoby. Their love story intertwines with Rizal's journey, adding a poignant
+                chapter to his illustrious life. Through letters and whispers in the streets of Brussels, their romance
+                flourished, leaving an indelible mark on Rizal's soul. Suzanne Jacoby remains a captivating figure in
+                the narrative of Rizal's love and legacy.</p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Gordon Ramsay</span>
+            </div>
+        </div>
+        <!-- Post 1 -->
+        <div class="post-box news">
+            <img src="images/execution.jpg" alt="" class="post-img">
+            <h2 class="category"></h2>
+            <a href="#" class="post-title">Execution and Legacy</a>
+            <span class="post-date">6 Jan 1896</span>
+            <p class="post-description truncated">
+                In 1896, despite his disapproval of the violent methods of the nationalist group Katipunan, Jose Rizal
+                was arrested and subsequently executed by firing squad for his alleged involvement in sedition. His
+                death on December 30, 1896, at the age of 35, sparked increased resistance against Spanish rule in the
+                Philippines. Rizal's legacy as a nationalist icon endures, as he played a pivotal role in the country's
+                journey towards independence, which was ultimately achieved after World War II, marking the end of
+                Spanish control over the Philippines.
+            </p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Jessica Soho</span>
+            </div>
+        </div>
+        <!-- Post 9 -->
+        <div class="post-box travel">
+            <img src="images/liga.jpg" alt="" class="post-img">
+            <h2 class="category"></h2>
+            <a href="#" class="post-title">Exile in the Philippines</a>
+            <span class="post-date">1 Jul 1990</span>
+            <p class="post-description truncated">Rizal returned to the Philippines in 1892, feeling he needed to be in
+                the country to effect change. Although the reform society he founded, the Liga Filipino (Philippine
+                League), supported non-violent action, Rizal was still exiled to Dapitan, on the island of Mindanao.
+                During the four years Rizal was in exile, he practiced medicine and took on students.</p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Stephen Curry</span>
+            </div>
+        </div>
+        <div class="post-box travel">
+            <img src="images/execution.jpg" alt="" class="post-img">
+            <h2 class="category"></h2>
+            <a href="#" class="post-title">Execution and Legacy</a>
+            <span class="post-date">6 Jan 1896</span>
+            <p class="post-description truncated">
+                In 1896, despite his disapproval of the violent methods of the nationalist group Katipunan, Jose Rizal
+                was arrested and subsequently executed by firing squad for his alleged involvement in sedition. His
+                death on December 30, 1896, at the age of 35, sparked increased resistance against Spanish rule in the
+                Philippines. Rizal's legacy as a nationalist icon endures, as he played a pivotal role in the country's
+                journey towards independence, which was ultimately achieved after World War II, marking the end of
+                Spanish control over the Philippines.
+            </p>
+
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Jessica Soho</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modalImg" src="" alt="" class="modal-img">
+            <h2 id="modalTitle" class="category"></h2>
+            <span id="modalDate" class="post-date"></span>
+            <p id="modalDescription" class="post-description"></p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span id="modalProfileName" class="profile-name"></span>
+            </div>
+            <!-- New section to display the content from the specified section -->
+            <div id="modalAboutSectionContent" class="about-section-content"></div>
+        </div>
+    </div>
+    
+
+    <footer>
+        <div class="footer-container">
+            <div class="sec aboutus">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quisquam minus quo illo numquam vel
+                    incidunt pariatur hic commodi expedita tempora praesentium at iure fugiat ea, quam laborum aperiam
+                    veritatis.</p>
+                <ul class="sci">
+                    <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-twitter"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Quick Links</h2>
+                <ul>
+
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#post-filter-container" class=" active-filter">All</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="sec contactBx">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class='bx bxs-map'></i></span>
+                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quisquam minus quo illo
+                            numquam vel incidunt pariatur hic commodi expedita tempora praesentium at iure fugiat ea,
+                            quam laborum aperiam veritatis. <br></span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-envelope'></i></span>
+                        <p><a href="mailto:codemyhobby9@gmail.com">hendrickpaul.castro@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
